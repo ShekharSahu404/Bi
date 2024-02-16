@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer{
+    .header{
+            @apply h-[100px] bg-[#07071d] p-0 flex flex-row justify-center items-center
+    }
+    .wrapper{
+        @apply flex flex-row  justify-between items-center h-[47px]  w-[800px] mx-10
+    }
+   
+    
+    .first{
+        @apply   border-black border-[6px]
+    }
+
+    .left{
+        @apply  flex md:flex flex-row gap-[15px] items-center  
+    }
+    
+}
